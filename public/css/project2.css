@@ -3,7 +3,7 @@
 #wrapper { width: 960px; margin: 0 auto; }
 
 nav ul { list-style: none; margin: 0; padding: 0 }
-nav ul li { display: inline-block; padding: 0 65px; }
+nav ul li { display: inline-block; padding: 0 60px; }
 
 a:link { color: black; text-decoration: none; font-weight: bold; }
 a:visited { color: black; }
@@ -52,4 +52,9 @@ button { padding: 5px 7px }
 .pagenation li { display: inline-block; padding: 10px; }
 .cpage { font: bold 48px '맑은 고딕'; color: red }
 .prev { color: #cccccc }
+
+.active {
+                background-color: #0099FF; color: white !important;
+                padding: 15px 30px
+        }
 
